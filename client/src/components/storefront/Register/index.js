@@ -34,7 +34,7 @@ const Register = ({ history }) => {
 
   const renderForm = ({ handleSubmit, ...form }) => (
     <Form className="form">
-      <h2>Registation</h2>
+      <h2>Registration</h2>
       <Field form={form} name="username" label="Username" component={Input} />
       <Field form={form} name="email" label="Email" component={Input} />
       <Field form={form} name="password" label="Password" type="password" component={Input} />
