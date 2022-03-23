@@ -21,6 +21,15 @@ run mongodb before you start.
 - Database seeder (books & users & genres & Customers)
 
 
+FRONTEND:
+Express js
+React js
+Node js
+
+BACKEND:
+Mongodb
+
+
 
 ### Project Overview
 PROJECT OVERVIEW:
