@@ -3,6 +3,14 @@ A website made by MERN STACK. It allows customers to buy books through Paypal ac
 # Installation
 run mongodb before you start.
 
+## Project Overview
+PROJECT OVERVIEW:
+Online Book store is an online web application where the customer can purchase books online. Through a web browser the customers can search for a book by its title, later can add to the shopping cart and finally purchase using credit card transaction. The user can login using his account details or new customers can set up an account very quickly. They should give the details of their name, contact number and shipping address. The user can also give feedback to a book by giving ratings on a score of five. The books are divided into many categories based on genres like action, adventure, romance, comics etc.., 
+
+## Admin Module
+ADMIN MODULE:
+ Admin can login using valid credentials and perform various task such as Adding a Another Employee, Books and Genres. Admin can see the orders what customer placed and he can give an update about delivery when it get deliver. 
+
 ## Features
 
 - Full featured shopping cart
@@ -22,8 +30,8 @@ run mongodb before you start.
 
 
 FRONTEND:
-Express js
-React js
+Express js,
+React js,
 Node js
 
 BACKEND:
@@ -31,24 +39,17 @@ Mongodb
 
 
 
-### Project Overview
-PROJECT OVERVIEW:
-Bukk Store Website is the one kind of web application which integrates all the modules and functionalities of Ecommerce website that can be handled by admin or employee and access by customers with valid email and password. It is used to manage the activities which include the management of books, customers, genres, employees and orders. It provides one-point access to manage these wide range of activities both effectively and efficiently. 
-
-### Admin Module
-ADMIN MODULE:
- Admin can login using valid credentials and perform various task such as Adding a Another Employee, Books and Genres. Admin can see the orders what customer placed and he can give an update about delivery when it get deliver. 
-
 ### Env Variables
 
 Create a .env file in then root and add the following
 
-
+```
 NODE_ENV = development
 PORT = 3001
 MONGO_URI = your mongodb uri
 JWT_SECRET = your secret key
 PAYPAL_CLIENT_ID = your paypal client id
+```
 
 Start Server
 ```
